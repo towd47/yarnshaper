@@ -61,7 +61,18 @@ function Events() {
                         />
                     )
                 }
+                else return null
             })
+
+            let haveEvents = false
+            events.forEach(e => {
+                if (e != null) {
+                    haveEvents = true
+                }
+            })
+            if (!haveEvents) {
+                events = <h1>No events planned for now, check back soon!</h1>
+            }
 
             values.reverse()
 
