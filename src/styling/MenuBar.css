@@ -1,0 +1,20 @@
+.menubar {
+    display: flex;
+    width: 100%;
+    background-color: #fef6ff;
+    margin: 0px;
+    margin-bottom: 60px;
+    gap: 15px;
+    justify-content: center;
+    color: black;
+}
+
+.selected {
+    text-decoration: underline 2px;
+    text-underline-offset: 5px;
+}
+
+.active {
+    text-decoration: underline 2px;
+    text-underline-offset: 5px;
+}

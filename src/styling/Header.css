@@ -1,0 +1,15 @@
+.header--logo {
+    width: 100%;
+}
+
+.header {
+    margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 0px;
+    display: flex;
+}
+
+.header--link {
+    width: 100%;
+}

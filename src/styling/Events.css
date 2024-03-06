@@ -1,0 +1,24 @@
+.events {
+    display: flex;
+    flex-direction: column;
+}
+
+.event--divider--darker {
+    text-align: center;
+    background-color: #f3edff;
+}
+
+.divider {
+    text-align: center;
+    margin-block: 20px;
+    border-radius: 8px;
+    font-size: 1.2em;
+    padding: 0.6em 1.2em;
+    font-family: inherit;
+    font-weight: 600;
+    color: white;
+    background-color: hotpink;
+    cursor: pointer;
+    border-color: hotpink;
+    border: none;
+}

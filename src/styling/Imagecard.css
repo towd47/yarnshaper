@@ -1,0 +1,52 @@
+.imagecard {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    width: 25em;
+    height: 29em;
+    background-color: #fbdcff;
+    border-radius: 8px;
+    gap: 1em;
+}
+
+.imagecard--mobile {
+    display: flex;
+    flex-direction: column;
+    max-width: 95%;
+    width: 25em;
+    background-color: #fbdcff;
+    border-radius: 8px;
+    gap: 1em;
+    margin: auto;
+}
+
+.imagecard--button {
+    padding-top: .3em;
+    width: 100%;
+    height: 400px;
+    background: none;
+    border: none;
+}
+
+.imagecard--button--mobile {
+    padding-top: .3em;
+    width: 100%;
+    background: none;
+    border: none;
+}
+
+.imagecard--button:hover {
+    cursor: pointer;
+}
+
+.imagecard--image {
+    width: 100%;
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+.imagecard--text {
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 10px;
+}

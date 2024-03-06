@@ -1,0 +1,56 @@
+.about {
+    color: black;
+}
+
+.about--header {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.about--paragraph {
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+    font-size: large;
+    white-space: pre-line;
+}
+
+.about--paragraph--mobile {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    font-size: large;
+    white-space: pre-line;
+}
+
+.profile--image {
+    max-width: 50%;
+    object-fit: contain;
+    height: auto;
+}
+
+.profile--image--mobile {
+    max-width: 80%;
+    object-fit: contain;
+    height: auto;
+}
+
+.about--profile {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.about--profile--mobile {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
