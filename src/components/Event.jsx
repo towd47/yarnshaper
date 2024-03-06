@@ -14,7 +14,7 @@ function Event(props) {
                 <span className={`${isTabletOrMobile ? "event--location--mobile" : "event--location"}`}>Where: {props.location}</span>
                 <span className={`${isTabletOrMobile ? "event--date--mobile" : "event--date"}`}>When: {props.date} | {props.time}</span>
                 <p className="event--description" >{props.description}</p>
-                {(props.link != "") ? <span className='event--link--span'>For more details: <a href={props.link} className="event--link">{`${isTabletOrMobile? "Click Here" : props.link}`}</a></span> : <></>}
+                {(props.link != "") ? <span className='event--link--span'>For more details, <a href={props.link} className="event--link">CLICK HERE</a></span> : <></>}
             </div>
         </div>
     )

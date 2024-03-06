@@ -2,13 +2,13 @@
     display: flex;
     justify-content: center;
     margin-top: 80px;
-    margin-bottom: 60px;
+    margin-bottom: 200px;
     gap: 5px;
     flex-direction: column;
 }
 
 .footer--msg {
-    font-size: 36px;
+    font-size: 32px;
 }
 
 .footer--icons {

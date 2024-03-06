@@ -9,6 +9,7 @@ function Footer() {
 
     return (
         <div className='footer'>
+            {location.pathname == "/events" && <div className='footer--msg'>Hope to see you soon!</div>}
             <div className='footer--follow--me'>For the latest news, follow me <a href="https://www.instagram.com/yarnshaper/?hl=en">@yarnshaper</a> on Instagram!</div>
             <div className='footer--icons'>
                 <a href="https://www.instagram.com/yarnshaper/?hl=en">
@@ -21,7 +22,6 @@ function Footer() {
                     <FontAwesomeIcon icon={faEnvelope} size='2xl'/>
                 </a>
             </div>
-            {location.pathname == "/events" && <div className='footer--msg'>Hope to see you soon!</div>}
         </div>
     )
 }
