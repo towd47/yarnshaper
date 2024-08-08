@@ -111,10 +111,10 @@ function Events() {
             </div>
             <div>
                 {/* <h1 className={`${(divider_key % 2 == 0) ? "event--divider--darker" : "event--divider--lighter"} divider`} onClick={() => setShowPast(!showPast)}>{`${showPast ? "Hide Past Events" : "Show Past Events"}`}</h1> */}
-                <button type="button" className={`${(divider_key % 2 == 0) ? "event--divider--darker" : "event--divider--lighter"} divider`} onClick={() => setShowPast(!showPast)}>{`${showPast ? "Hide Past Events" : "Show Past Events"}`}</button>
+                {/* <button type="button" className={`${(divider_key % 2 == 0) ? "event--divider--darker" : "event--divider--lighter"} divider`} onClick={() => setShowPast(!showPast)}>{`${showPast ? "Hide Past Events" : "Show Past Events"}`}</button> */}
             </div>
             <div className="events">
-                {showPast && past_events}
+                {/* {showPast && past_events} */}
             </div>
         </div>
     )
